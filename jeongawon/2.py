@@ -3,7 +3,7 @@ def is_balanced_brackets(s: str) -> bool:
 
     #닫는 괄호 -> 여는 괄호 매핑
     pair = {
-        ')': '()',
+        ')': '(',
         ']': '[' ,
         '}': '{'
     }
